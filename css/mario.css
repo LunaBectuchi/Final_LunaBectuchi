@@ -1,0 +1,321 @@
+
+body {background-color: white
+  padding-bottom: 20px;
+}
+a{color: black;}
+
+.mario11{height: 100%; 
+  width:100%;
+  background-size:cover; 
+  background-position:center;
+  background-repeat:no-repeat;
+  transition: 5s; 
+
+  animation-name: anim; 
+  animation-direction:alternate-reverse; 
+  animation-duration:25s;
+  animation-fill-mode: forwards; 
+  animation-iteration-count: infinite;
+  animation-play-state: running; 
+  animation-timing-function: initial;}
+
+@keyframes anim{
+  0%{background-image:url(../img/inyourfaceaa.jpg)}
+  33%{background-image:url(../img/inyourfacea.jpg)}
+  66%{background-image:url(../img/inyourfaceb.jpg)}
+  100%{background-image:url(../img/inyourfacec.jpg)}
+}
+
+.translate{position: absolute;top:50%; left: 37%;color: white;}
+.sorry{font-size: 35px;font-family: 'Bebas Neue', 'Futura'; color:white; }
+.return{font-size: 20px; text-align: center;padding: 15px;font-family: 'Bebas Neue', 'Futura' }
+.return a{ list-style: none; text-decoration: none; color: white;padding: 15px;font-family: 'Bebas Neue', 'Futura' }
+
+.return{animation-name: slidein;
+animation-duration: 1s;
+transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;}
+
+
+  .return:hover {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;
+  background-color:white;
+  color:black;
+  -moz-box-shadow: 2px 2px 1px black;
+}
+
+
+
+.navbara .nav-item{animation-name: slidein;
+animation-duration: 1s;
+transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;}
+
+
+  .navbara .nav-item:hover {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;
+  background-color:white;
+  color:black;
+  -moz-box-shadow: 2px 2px 1px black;
+}
+
+.navbar .nav-item{animation-name: slidein;
+animation-duration: 1s;
+transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;}
+
+
+  .navbar .nav-item:hover {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 1s;
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 1s;
+  background-color:white;
+  color:black;
+  -moz-box-shadow: 2px 2px 1px black;
+}
+
+
+
+.navbara .nav-item:hover{background-color: white}
+.navbar .nav-item:hover{background-color: grey;}
+.navbar a
+.navbara a{}
+.nav-link{font-size: 15px;color: black}
+button .navbar-toggler{background-color: white;}
+.TITULO p{color: black; text-align: center;font-size: 15px;}
+ p{color: black; text-align: center;font-size: 15px;}
+ .suscripcion{text-align: center;padding: 10px;}
+ .susc{font-family: 'Montserrat', sans-serif; font-size: 15px}
+
+.w-100 {   
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.w-100:hover {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.contenedor-total{width: 90%;margin-left: 5%}
+.banner{width: 100%}
+.banner img{width: 100%}
+.videomario{margin-top: 0px;width: 100%;}
+.videomario .video{width: 100%;}
+.videomario img{position: relative;bottom: 70px;left: 45%}
+
+
+
+.contenedor-total .foto{width: 100%}
+.TITULO h1{color: black; text-align: center;font-size: 15px;}
+.TITULO{padding: 15px;font-family: 'Montserrat', sans-serif;}
+.redes{display: flex;max-width: 100%;justify-content:center;margin-bottom: 20px}
+.redes img{margin-right: 25px;margin-left: 25px}
+.redes img:hover{animation-name: giro;
+  animation-duration: 0.3s;}
+.txt{text-align: center;}
+.primera-publicacion{text-align: center;}
+.segunda-publicacion{}
+.primera-publicacion h1{color: black; text-align: center;font-size: 15px;margin-top: 20px}
+.primera-publicacion img{width: 30%}
+.segunda-publicacion{text-align: center;}
+.segunda-publicacion h1{color: black; text-align: center;font-size: 15px;margin-top: 50px}
+.segunda-publicacion img{width: 30%}
+.redes_{}
+
+
+h1 {
+  color:black;
+  animation-name: cambiocolor;
+  animation-duration: 4s;
+}
+
+@keyframes cambiocolor {
+  0%   {color: black;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+footer {
+  background-color: #262626;
+}
+
+.text-black {
+  color: #000; }
+
+.content {
+  padding: 7rem 0; }
+
+.thin-heading {
+  font-weight: 300;
+  font-size: 40px; }
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+  padding: 0;
+  border-radius: 0px; }
+  .form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000; }
+
+.col-form-label {
+  color: #000; }
+
+.btn, .form-control, .custom-select {
+  height: 50px; }
+
+.custom-select:active, .custom-select:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000; }
+
+.heading {
+  color: #888;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+.btn {
+  border: none;
+  border-radius: 0; }
+  .btn.btn-primary {
+    background: #000;
+    color: #fff;
+    padding: 15px 20px; }
+  .btn:hover {
+    color: #fff; }
+  .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.box {
+  padding: 40px;
+  background: #fff;
+  -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08); }
+  .box h3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center; }
+
+label.error {
+  font-size: 12px;
+  color: red; }
+
+#message {
+  resize: vertical; }
+
+#form-message-warning, #form-message-success {
+  display: none; }
+
+#form-message-warning {
+  color: #B90B0B; }
+
+#form-message-success {
+  color: #55A44E;
+  font-size: 18px;
+  font-weight: bold; }
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000; }
+
+
+footer .text-uppercase{color: white}
+footer .form-label{color: white}
+footer .btn{background-color: white}
+footer .text-center{color: white}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes giro {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 766px ) { 
+
+.segunda-publicacion img{width: 60%}
+.primera-publicacion img{width: 60%}
+}
+
+@media (max-width: 765px) and (min-width: 500px ) { 
+  .redes_{height: 150px;width: 150px}
+
+.segunda-publicacion img{width: 60%}
+.primera-publicacion img{width: 60%}
+.flecha{visibility: hidden}
+}
+
+@media (max-width: 600px) and (min-width: 250px ) { 
+  .redes{display: inline-block; text-align: center;}
+  .redes_{width: 200px;height: 200px;padding: 15px}
+
+.segunda-publicacion img{width: 60%}
+.primera-publicacion img{width: 60%}
+.flecha{visibility: hidden}
+}
+
