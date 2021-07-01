@@ -1,0 +1,67 @@
+ * { padding:0; margin:0; }
+ header{}
+
+body{background-color: white;width: 80%;margin-left: 10%}
+.aa{display: flex; width: 100%;justify-content: space-between;}
+.nombre{margin-top:7%;}
+.contacto{display: flex; flex-direction:column; margin: 3%;width: 20%;}
+h1{font-family: 'Signika Negative', sans-serif; text-decoration: none;list-style: none;}
+h2{font-family: 'Signika Negative', sans-serif; font-size: 19px;padding-top: 2px;margin: 4px;}
+.datos{font-weight: bold;}
+h3{font-family: 'Roboto', sans-serif; font-size: 13px;padding-top: 2px;font-weight: 100}
+h5{font-size: 17px;font-weight: 500}
+h6{font-family: 'Roboto', sans-serif;font-size: 25px;padding-top: 2px;margin: 4px;}
+.linea{background-color: black;width: 70%;height: 2%;}
+.datos{font-family: 'Signika Negative', sans-serif;font-size: 25px;padding-top: 2px;font-weight: 100}
+.contenedor-total{display: flex;width: 90%;justify-content: space-between;}
+.contenedor-parrafos{display: flex; flex-direction: column;justify-content: space-between;width: 70%}
+.explab{font-family: 'Roboto', sans-serif; font-size: 17px;margin: 10px;font-weight: 100}
+.explab1{font-family: 'Roboto', sans-serif; font-size: 17px;margin: 10px;font-weight: 100}
+.explab2{font-family: 'Roboto', sans-serif; font-size: 17px;margin: 10px;font-weight: 100}
+ul li{list-style: none; font-family: 'Roboto', sans-serif;font-size: 15px;font-weight: 100}
+p{font-family: 'Roboto', sans-serif;font-size: 15px;font-weight: 100}
+footer{background-color: black;width: 80%;height: 5%}
+.footer{color: white;text-align: center;}
+.mario{width: 30%;}
+.mario img{width: 100%}
+
+
+@media only screen and (max-width: 950px) and (min-width: 750px) {
+
+		.aa{display: inline-block;}
+		.nombre{width: 40%;margin-left: 33%;text-align: center; }
+		.contacto{width: 40%;margin-left: 33%;text-align: center; }
+		.linea{width: 100%}
+		.datos{font-size: 15px}
+		.contenedor-total{display: inline-block;}
+		h2{font-size: 20px;padding-top: 2px;margin: 4px}
+		h3{font-size: 15px;padding-top: 2px}
+		p{font-size: 15px}
+		ul li{list-style: none; font-size: 15px}
+		h5{font-size: 17px;font-weight: 500}
+		h1{font-size: 17px}
+		h6{font-size: 15px}
+		.contenedor-parrafos{width: 100%;}
+		.mario img{width: 100%}
+		.mario{text-align: center;margin-left: 30%;width: 40%}
+
+}
+
+@media only screen and (max-width: 749px) and (min-width: 300px) {
+
+		.aa{display: inline-block;}
+		.nombre{width: 40%;margin-left: 33%;text-align: center; }
+		.contacto{width: 40%;margin-left: 33%;text-align: center; }
+		.linea{width: 100%}
+		.datos{font-size: 13px}
+		.contenedor-total{display: inline-block;}
+		h1{font-size: 17px}
+		h6{font-size: 14px}
+		h2{font-size: 17px;padding-top: 2px;margin: 4px}
+		h3{font-size: 12px;padding-top: 2px}
+		p{font-size: 13px}
+		ul li{list-style: none; font-size: 13px}
+		h5{font-size: 15px;font-weight: 500}
+		.contenedor-parrafos{width: 100%;}
+		.mario img{width: 100%}
+		.mario{text-align: center;margin-left: 30%;width: 40%}
